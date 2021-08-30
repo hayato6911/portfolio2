@@ -1,11 +1,9 @@
-<div class="company">
-  <div class="company_info">
-    <div class="cont_title1">
-      <h1>スポット編集</h1><hr>
-    </div>
-    <table class="company_info_base4">
-      <thead>
-      <%= form_for @location do |f| %>
+<div class="cont_title1">
+  <h1>スポット編集</h1><hr>
+</div>
+<%= form_for @location do |f| %>
+  <table class="company_info_base4">
+    <thead>
       <tr class="arrow_box">
         <th><%= f.label :location_name,'スポット名' %></th>
         <td><%= f.text_field :location_name, placeholder: 'スポット名を入力' %></td>
@@ -19,18 +17,19 @@
         <td><%= f.text_field :address, placeholder: '住所を入力' %></td>
       </tr>
       <tr class="arrow_box">
-       <th><%= f.label :price,'予算を入力' %></th>
+        <th><%= f.label :price,'予算を入力' %></th>
         <td><%= f.number_field :price, placeholder: '予算を入力' %></td>
       </tr>
       <tr class="arrow_box">
         <th><%= f.label :location_image ,'画像があれば選択' %></th>
         <td><%= f.file_field :location_image %></td>
       </tr>
-    </table>
-    <div class="done_button">
-      <ul>
-        <li><%= f.submit "スポット編集を完了する" %></li>
-        <li><%= link_to "登録済みスポット一覧に戻る", locations_posts_path %></li>
-      </ul>
-    </div>
-  <% end %>
+    </thead>
+  </table>
+  <div class="done_button">
+    <ul>
+      <li><%= f.submit "スポット編集を完了する" %></li>
+      <li><%= link_to "登録済みスポット一覧に戻る", locations_posts_path %></li>
+    </ul>
+  </div>
+<% end %>
