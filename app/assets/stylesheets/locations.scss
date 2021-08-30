@@ -1,0 +1,350 @@
+// Place all the styles related to the locations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.location1{
+  width:200px;
+}
+
+.touroku{
+  border-bottom: 100px solid #fff;
+  text-align:center;
+}
+
+.arrow_box{
+  text-align:center;
+}
+
+.cont_title h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.cont_title hr {
+    width: 95px;
+    margin: 5px auto 0;
+    border: 0;
+    border-bottom: 3px solid #559545;
+}
+
+.cont_title2 hr {
+    width: 95px;
+    margin: 5px auto 0;
+    border: 0;
+    border-bottom: 3px solid orange;
+}
+
+.cont_title2 h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+table.company_info_base1 {
+    width: 800px;
+    margin: 30px auto 0;
+    font-size: 16px;
+}
+
+table.company_info_base2 {
+    width: 800px;
+    margin: 30px auto 0;
+    font-size: 16px;
+}
+
+table.company_info_base1 th {
+    background: #669900;
+    vertical-align: middle;
+    text-align: center;
+    width: 90px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table.company_info_base2 th {
+    background: #FF9900;
+    vertical-align: middle;
+    text-align: center;
+    width: 90px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table.company_info_base1 th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #669900;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+table.company_info_base2 th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #FF9900;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+table.company_info_base1 td {
+    padding: 10px;
+    color: #000;
+    background: #F6F6F6;
+}
+
+table.company_info_base2 td {
+    padding: 10px;
+    color: #000;
+    background: #F6F6F6;
+}
+
+.icon_image1 {
+    height: auto;
+    max-width: 80%;
+}
+
+table td{
+  border-bottom: solid 4px white;
+}
+/*スポット編集*/
+
+.edit_location{
+  max-width: 880px;
+  margin: 30px 33%;
+}
+
+#location_location_name{
+    width: 85%;
+    height: 38px;
+    margin-left: 30px;
+}
+
+#location_introduction{
+  width: 85%;
+  height: 134px;
+  margin-left: 30px;
+}
+
+#location_address{
+  width: 85%;
+    height: 38px;
+    margin-left: 30px;
+}
+
+#location_price{
+    width: 85%;
+    height: 38px;
+    margin-left: 30px;
+}
+
+#location_location_image{
+    width: 85%;
+    height: 38px;
+    margin-left: 24px;
+}
+
+.cont_title1 h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.cont_title1 hr {
+    width: 95px;
+    margin: 5px auto 0;
+    border: 0;
+    border-bottom: 5px solid #9999FF;
+}
+
+table.company_info_base4 th {
+    background: #9999FF;
+    vertical-align: middle;
+    text-align: center;
+    width: 165px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table.company_info_base4 {
+    width: 800px;
+    margin: 30px auto 0;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+table.company_info_base4 th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #9999FF;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+table.company_info_base4 td {
+    padding: 10px;
+    color: #000;
+    background: #F6F6F6;
+}
+
+.done_button{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+/*マップの表示*/
+  #map { 
+    height: 200px;
+    width: 400px;
+    margin-top: 22px;
+    margin-left: 22%;
+  }
+  
+/*スポット詳細*/
+table.company_info_base3 th {
+    background: #000;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table.company_info_base3 {
+    width: 800px;
+    margin: 30px auto 0;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+table.company_info_base3 th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #000;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+table.company_info_base3 td {
+    padding: 10px;
+    color: #000;
+    background: #F6F6F6;
+}
+
+.cont_title3 hr {
+    width: 95px;
+    margin: 5px auto 0;
+    border: 0;
+    border-bottom: 3px solid #000;
+}
+
+.cont_title3 h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*スポット登録*/
+
+table.company_info_base5 th {
+    background: #F00;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table.company_info_base5 {
+    width: 800px;
+    margin: 30px auto 0;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+table.company_info_base5 th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #F00;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+table.company_info_base5 td {
+    padding: 10px;
+    color: #000;
+    background: #F6F6F6;
+}
+
+.cont_title5 hr {
+    width: 95px;
+    margin: 5px auto 0;
+    border: 0;
+    border-bottom: 3px solid #F00;
+}
+
+.cont_title5 h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}

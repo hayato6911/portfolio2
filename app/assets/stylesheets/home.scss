@@ -1,0 +1,43 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.button1 {
+  display: flex;
+  border-radius: 5%;
+  font-size: 40pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 23px 400px;
+  background: #7f007f;
+  color: #ffffff;
+  line-height: 1em;
+  transition: .3s;
+  box-shadow: 11px 11px 4px #666666;
+  border: 2px solid #7f007f;
+  margin-top: 20px;
+}
+
+.container2{
+  margin-bottom: 200px;
+  margin-left: 14%;
+  margin-top: 10%;
+}
+
+.button1:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #7f007f;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.form-area-title {
+  margin: 40px 32%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#q_address_cont{
+  margin-left: 9%;
+  width: 700px;
+  height: 70px;
+}
