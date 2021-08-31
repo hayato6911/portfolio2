@@ -101,8 +101,6 @@
 
 .titel2 span{
   font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
   font-weight: bold;
 }
 
@@ -189,6 +187,10 @@ a.btn-border:before {
   backface-visibility: hidden;
 }
 
+h2.titel2 {
+  text-align: center;
+}
+
 a.btn-border:hover {
   -webkit-transform: translate(0, 3px);
   transform: translate(0, 3px);
@@ -208,6 +210,5 @@ a.btn-border:active:before {
 }
 
 .ikou_btn{
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
