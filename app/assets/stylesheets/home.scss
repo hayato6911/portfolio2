@@ -16,12 +16,9 @@
   box-shadow: 11px 11px 4px #666666;
   border: 2px solid #7f007f;
   margin-top: 20px;
-}
-
-.container2{
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 200px;
-  margin-left: 14%;
-  margin-top: 10%;
 }
 
 .button1:hover {
@@ -31,13 +28,15 @@
 }
 
 .form-area-title {
-  margin: 40px 32%;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 #q_address_cont{
-  margin-left: 9%;
   width: 700px;
   height: 70px;
+  margin: 0 auto;
 }
