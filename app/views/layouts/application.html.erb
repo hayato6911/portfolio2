@@ -24,21 +24,15 @@
     <% end %>
     
     <% if user_signed_in? %>
-    <div class="navbar-item">
-      <a href="/" class="title is-4" style="font-family: cursive;">Asobuno Tanosiiina</a>
-      <p class="control">
-        <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-warning is-light" %>
-      </p>
-    </div>
-    <% else %>
+    <header class="page-header" id="header">
       <div class="navbar-item">
         <a href="/" class="title is-4" style="font-family: cursive;">Asobuno Tanosiiina</a>
+        <p class="control">
+          <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-warning is-light" %>
+        </p>
       </div>
-    <% end %>
-    
-    <% if user_signed_in? %>
       <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-end">
+        <div class="navbar-end1">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
@@ -58,8 +52,11 @@
         </div>
       </div>
     <% else %>
+      <div class="navbar-item">
+        <a href="/" class="title is-4" style="font-family: cursive;">Asobuno Tanosiiina</a>
+      </div>
       <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-end">
+        <div class="navbar-end2">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">

@@ -36,10 +36,20 @@
 }
 
 .title.is-4 {
-   margin-left: 35%;
+  margin-left: 29%;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 1080px) {
+  .title.is-4 {
+   margin-left: auto;
+   margin-right: auto;
    font-size: 50px;
    margin-bottom: 20px;
    color: white;
+}
 }
 
 .button.is-warning.is-light {
@@ -53,10 +63,24 @@
  background-color: black;
 }
 
-.navbar-end {
+@media screen and (max-width: 1080px) {
+  .navbar-menu {
+    display: contents;
+}
+}
+
+.navbar-end1 {
   justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
+}
+
+@media screen and (max-width: 1080px) {
+.navbar-end1 {
+  justify-content: flex-end;
+  background-color: black;
+}
 }
 
 .navbar-end2 {
@@ -64,22 +88,45 @@
    margin-left: 12%;
 }
 
+@media screen and (max-width: 1080px) {
+  .navbar-end2 {
+    justify-content: flex-end;
+    background-color: black;
+    margin-left: 0;
+}
+}
+
 .button.is-warning.is-light {
-  margin-left: 95px;
+  margin-left: 75px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.button.is-warning.is-light2 {
-  margin-left: 130px;
-  font-size: 20px;
-  font-weight: bold;
+@media screen and (max-width: 1080px) {
+.button.is-warning.is-light {
+font-size: 15px;
+font-weight: bold;
+}
+}
+
+@media screen and (max-width: 1080px) {
+  .button.is-warning.is-light2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 75px;
+    background-color: white;
+    color: #947600;
+}
 }
 
 .button.is-warning.is-light2 {
+  font-size: 20px;
+  margin-left: 75px;
+  font-weight: bold;
   background-color: white;
   color: #947600;
 }
+
 /*footer*/
 ul {
   list-style: none;
