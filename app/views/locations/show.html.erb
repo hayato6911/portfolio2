@@ -10,10 +10,7 @@
       </tr>
       <tr class="arrow_box">
         <th>スポット画像</th>
-        <td class="location1"><div class = "icon_image1">
-        <% if @location.location_image.attached? %>
-          <%= image_tag @location.location_image %>
-        <% end %>
+        <td class="location1"><img src=<%= @location.location_image %> class = "icon_image1"></td>
       </tr>
       <tr class="arrow_box">
         <th>料金・予算</th>
