@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   get 'helpful/index'
-  
   get 'locations/posts'
   get 'locations/index'
   resources :locations
@@ -9,5 +8,7 @@ Rails.application.routes.draw do
   root to: "home#index"
   
   resources :users, :only => [:posts]
-  resources :locations, :only => [:new]
+  resources :locations, :only => [:new] do
+    resources :reviews, only: [:index, :create]
+  end  
 end

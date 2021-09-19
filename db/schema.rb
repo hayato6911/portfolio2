@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_27_063907) do
+ActiveRecord::Schema.define(version: 2021_09_19_100115) do
 
   create_table "locations", force: :cascade do |t|
     t.string "location_name"
@@ -23,6 +23,17 @@ ActiveRecord::Schema.define(version: 2021_08_27_063907) do
     t.string "introduction"
     t.float "latitude"
     t.string "longitude"
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "location_id"
+    t.string "content"
+    t.integer "score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["location_id"], name: "index_reviews_on_location_id"
+    t.index ["user_id"], name: "index_reviews_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
