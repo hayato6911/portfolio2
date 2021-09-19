@@ -1,24 +1,8 @@
-# README
+# スポット検索アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+皆さんは、人生でこんな経験したことありませんか？  
+1.友達と集まった良いものの、遊びに行くところが決まらない。  
+2.県外の観光場所を知りたい。  
+これらの悩みを解決できるのがこのアプリの特徴です。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#DEMO
