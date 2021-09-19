@@ -21,4 +21,3 @@ before_action :authenticate_user!, only: [:create]
     params.require(:review).permit(:location_id, :score, :content)
   end
 end
-end
