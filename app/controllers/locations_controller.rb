@@ -42,7 +42,7 @@ class LocationsController < ApplicationController
 
   def update
     @location = Location.find(params[:id])
-    if @location.update(location_params)
+    if @location.update(params.require(:location).permit(:location_name,:introduction,:address,:price,:location_image))
       redirect_to locations_posts_path
     else
       render "edit"
